@@ -6,17 +6,17 @@ size_categories:
 
 # MTARSI — Military Aircraft Classification from Satellite Imagery
 
-Transfer-learning CNN for classifying 27 military aircraft types from 128×128 overhead/satellite imagery. Built on the [MTARSI-fixed](https://huggingface.co/datasets/amistele/MTARSI-fixed) dataset (~9,144 images).
+Transfer-learning CNN for classifying 26 military aircraft types from 128×128 overhead/satellite imagery. Built on the [MTARSI-fixed](https://huggingface.co/datasets/amistele/MTARSI-fixed) dataset (~2,139 images).
 
 **Performance**: ~98% validation accuracy on a held-out test split.
 
-## Aircraft Classes (27)
+## Aircraft Classes (26)
 
 | A-10 | B-1 | B-2 | B-29 | B-52 | C-130 | C-135 |
 |------|-----|-----|------|------|-------|-------|
-| C-17 | C-5 | Commercial-2engine | Commercial-4engine | E-2 | E-3 | F-15 |
-| F-16 | F-18 | F-22 | F-35 | F-4 | General-Aviation | KC-10 |
-| P-3 | Private-Jet | Su-34 | T-43 | T-6 | Twin-Prop | |
+| C-17 | Commercial-2engine | Commercial-4engine | E-2 | E-3 | F-15 |
+| F-16 | F-18 | F-22 | F-35 | General-Aviation | KC-10 |
+| P-3 | P-8 | Private-Jet | Su-34 | T-43 | T-6 | Twin-Prop |
 
 ## Usage
 

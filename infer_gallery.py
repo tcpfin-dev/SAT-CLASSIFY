@@ -39,7 +39,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 MODEL_PATH = "output/final_model.keras"
 CLASS_NAMES_PATH = "output/class_names.txt"
-DATA_ROOT = Path(__file__).resolve().parent / "images"
+DATA_ROOT = Path(__file__).resolve().parent / "MTARSI"
 OUTPUT_DIR = "predictions"
 IMG_SIZE = 128
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".bmp"}

@@ -37,7 +37,7 @@ import matplotlib.pyplot as plt
 #  CONFIG
 # ──────────────────────────────────────────────────────────────────────
 
-DATA_ROOT = "/images"
+DATA_ROOT = "/MTARSI"
 OUTPUT_DIR = "/output"
 
 MODE = "transfer"          # "transfer" (EfficientNetB0) or "scratch" (ResNet+SE)

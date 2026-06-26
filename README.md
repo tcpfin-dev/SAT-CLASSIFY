@@ -54,6 +54,27 @@ Predictions are saved to `predictions/run_YYYYMMDD_HHMMSS/` as CSV, JSON, and a 
 python infer_gallery.py 
 ```
 
+
+### Results
+**a B-2 Bomber**
+![alt text](predictions/gallery/B-2__pred_B-2.png)
+
+**an F-22**
+![alt text](predictions/gallery/F-22__pred_F-22.png)
+
+**an F-35**
+![alt text](predictions/gallery/F-35__pred_F-35.png)
+
+**A Commercial 4-Engine Airplane**
+![alt text](predictions/gallery/Commercial-4engine__pred_Commercial-4engine.png)
+
+**A Commercial 2-Engine Airplane**
+![alt text](predictions/gallery/Commercial-2engine__pred_Commercial-2engine.png)
+
+**Full Prediction Grid**
+![alt text](predictions/gallery/gallery_grid.png)
+
+
 ### Training
 
 Open `classifying-military-aircraft-from-satellite.ipynb` in Jupyter/Kaggle. The notebook implements two-phase transfer learning:

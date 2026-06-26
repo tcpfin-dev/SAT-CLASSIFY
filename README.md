@@ -20,7 +20,15 @@ Transfer-learning CNN for classifying 27 military aircraft types from 128×128 o
 
 ## Usage
 
-### Train
+### Train Locally
+
+The Training goes through two phase training:
+
+1. **Phase 1** — Train classification head on frozen EfficientNet-B0 backbone
+2. **Phase 2** — Finetune top layers with reduced learning rate
+
+A from-scratch ResNet+SE model is also provided as a fallback baseline.
+
 ```bash
 # Create Virtual Environment
 python -m venv .venv
@@ -30,6 +38,20 @@ pip install -r requirements.txt
 
 # Run the file
 python classify.py
+```
+
+If you do not have the resource required to train, dont worry, just download the finished model from my kaggle notebook
+
+### OR Download the Model from Kaggle
+```bash
+# Install Kaggle CLI
+pip install kaggle
+
+# Kaggle auth
+kaggle auth login
+
+# Download the models
+kaggle kernels output tcpfin/classifying-military-aircraft-from-satellite -p .
 ```
 
 ### Inference
@@ -86,15 +108,6 @@ python infer_gallery.py
 
 ![alt text](predictions/gallery/gallery_grid.png)
 
-
-### Training
-
-Open `classifying-military-aircraft-from-satellite.ipynb` in Jupyter/Kaggle. The notebook implements two-phase transfer learning:
-
-1. **Phase 1** — Train classification head on frozen EfficientNet-B0 backbone
-2. **Phase 2** — Finetune top layers with reduced learning rate
-
-A from-scratch ResNet+SE model is also provided as a fallback baseline.
 
 ## Requirements
 

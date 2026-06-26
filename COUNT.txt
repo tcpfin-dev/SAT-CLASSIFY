@@ -1,0 +1,31 @@
+LABEL 				COUNT
+-------------------------
+A_10                  340
+B_1                   513
+B_2                   619
+B_29                   23
+B_52                  548
+C_130                 599
+C_135                 654
+C_17                  354
+C_5                   631
+Commercial_2engine    546
+Commercial_4engine     47
+E_2                    24
+E_3                   430
+F_15                  359
+F_16                  391
+F_18                   73
+F_22                   42
+F_35                  240
+F_4                    29
+General_Aviation      434
+KC_10                 368
+P_3                   431
+Private_Jet           495
+Su_34                  26
+T_43                  306
+T_6                   248
+Twin_Prop             374
+-------------------------
+TOTAL 				 9144
